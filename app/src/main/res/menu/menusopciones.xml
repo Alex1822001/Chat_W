@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Buscar contacto"
+        android:id="@+id/Buscar_contacto"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Nuevo grupo"
+        android:id="@+id/NuevoGrupo"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Mi perfil"
+        android:id="@+id/MPerfilMenu"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Cerrar Secion"
+        android:id="@+id/CerrarMenu"
+        app:showAsAction="never">
+    </item>
+</menu>

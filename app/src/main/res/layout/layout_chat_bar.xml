@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/usuario_imagen"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo"
+        android:cropToPadding="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"/>
+    <TextView
+        android:id="@+id/usuario_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Nombre de usuario"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="19dp"/>
+    <TextView
+        android:id="@+id/usuario_conexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Ultima conexion"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/usuario_nombre"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"/>
+</RelativeLayout>
